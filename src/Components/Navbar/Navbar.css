@@ -30,3 +30,8 @@ nav ul li{
     border: none;
     cursor: pointer;
 }
+
+.dark-nav{
+    background:rgb(27, 27, 143);
+    transition: 0.5s;
+}
