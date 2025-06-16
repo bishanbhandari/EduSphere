@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Navbar.css';
-import logo from '../../assets/logo.png';
+import { FaUniversity } from "react-icons/fa";
 const Navbar = () => {
 
     const [sticky,setSticky]=useState(false);
@@ -13,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className={`container ${sticky ? 'dark-nav':''}`}>
-        <img src={logo}  alt="" className='logo' />
+      <h1 className='logo'>EduSphere <FaUniversity/></h1>
         <ul>
             <li>Home</li>
             <li>Program</li>
